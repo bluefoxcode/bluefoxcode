@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh app@172.31.22.181 >>EOF
+ssh  app@172.31.22.181 <<EOF
   cd /var/www/nodes/jawademo
   git pull
   npm install --production
