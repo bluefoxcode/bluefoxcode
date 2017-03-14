@@ -1,0 +1,18 @@
+{
+  "name": "bluefoxcode",
+  "version": "1.0.0",
+  "description": "My Bluefoxcode website",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Thomas <aaron@pop42.com> (http://bluefoxcode.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "bole": "3.0.2",
+    "dotenv": "4.0.0",
+    "express": "4.15.2",
+    "express-handlebars": "3.0.0",
+    "lodash": "4.17.4"
+  }
+}
