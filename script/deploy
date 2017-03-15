@@ -2,8 +2,8 @@
 
 # ssh into webserver as app user
 ssh  app@172.31.22.181 <<EOF
-  printf "\nPausing just to add some drama\n"
-  pause 60
+  printf "\nAdding dramatic pause\n"
+  sleep 30
   cd /var/www/nodes/jawademo
   git pull
   npm install --production
