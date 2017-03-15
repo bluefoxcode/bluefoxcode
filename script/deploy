@@ -1,9 +1,14 @@
 #!/bin/sh
 
+# ssh into webserver as app user
 ssh  app@172.31.22.181 <<EOF
+  # cd to app directory
   cd /var/www/nodes/jawademo
+  # pull changes from master branch
   git pull
+  # run npm install to get updated modules
   npm install --production
+  # restart app
   pm2 restart jawademo
   exit
 EOF
