@@ -3,7 +3,7 @@
 printf "\nssh into webserver as app user\n\n"
 ssh  app@172.31.22.181 <<EOF
   printf "\nAdding dramatic pause\n\n"
-  sleep 30
+  sleep 15
   printf "\nThis will cd to the app's directory, pull the latest changes from github, run npm install, then restart the application.\n\n"
   cd /var/www/nodes/jawademo
   git pull
