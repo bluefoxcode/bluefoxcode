@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # ssh into webserver as app user
-ssh  app@172.31.22.18 <<EOF
+ssh  app@172.31.22.181 <<EOF
   cd /var/www/nodes/jawademo
   git pull
   npm install --production
